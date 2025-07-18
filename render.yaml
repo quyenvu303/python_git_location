@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: flask-ip2location
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: python app.py
